@@ -49,6 +49,10 @@ body {
   font-size: 0.6em;
   color: $dark;
   font-weight: 100;
+  border: 1px solid $white_opaque;
+  border-radius: 5px;
+  display: block;
+  margin: 1em 25%;
 }
 
 .container {
