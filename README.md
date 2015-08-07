@@ -19,7 +19,7 @@ rails server
 ```
 Go to [locahost 300](http://localhost:3000/)
 # View on Heroku
-(https://tasks-todo.herokuapp.com/)
+https://tasks-todo.herokuapp.com/
 
 ## API Reference
 
