@@ -17,7 +17,7 @@ git clone https://github.com/downeyd27/todo-app.git
 cd todo-app
 rails server
 ```
-Go to [locahost 300](http://localhost:3000/)
+Go to [locahost 3000](http://localhost:3000/)
 # View on Heroku
 https://tasks-todo.herokuapp.com/
 
