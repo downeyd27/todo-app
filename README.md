@@ -1,28 +1,30 @@
-== README
+## Synopsis
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app will allow you to keep track of different todo items(tasks).  You have the capability of crossing out tasks as you complete them and trashing them when you want them completely from your list.  This application has the ability to create multiple lists so you can stay more organized.  Of course there is the functionality of being able to edit mistakes if you made a boo boo.
 
-Things you may want to cover:
+## Motivation
 
-* Ruby version
+I built this app to practice creating a CRUD style app with RESTful routing in a Ruby on Rails framework.  
 
-* System dependencies
+## Installation
 
-* Configuration
+Clone the repository with
+```
+git clone https://github.com/downeyd27/todo-app.git
+```
+# View on local machine
+```
+cd todo-app
+rails server
+```
+Go to [locahost 3000](http://localhost:3000/)
+# View on Heroku
+https://tasks-todo.herokuapp.com/
 
-* Database creation
+## API Reference
 
-* Database initialization
+Soon to be "quote of the day" api call and reference.
 
-* How to run the test suite
+## Tests
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Creating tests are coming soon or one possible way of contributing.
