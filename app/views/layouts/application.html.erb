@@ -11,9 +11,15 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   </head>
   <body>
+    <h1 class="center">Tasks Todo</h1>
+    <h2 class="center">Need to stay organized?  Keep it straight with a couple lists of Tasks Todo!</h2>
     <main role="main" class="container">
-       <%= render 'layouts/messages' %>
-       <%= yield %>
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <%# render 'layouts/messages' %>
+          <%= yield %>
+        </div>
+      </div>
     </main>
   </body>
 </html>
